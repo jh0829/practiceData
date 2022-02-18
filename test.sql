@@ -1,5 +1,5 @@
 -- テスト用データ作成 
-CREATE TABLE testData(
+CREATE TABLE testdata(
     id VARCHAR(11) NOT NULL, 
     name VARCHAR(30) NOT NULL ,
     age integer NOT NULL,

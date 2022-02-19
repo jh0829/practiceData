@@ -19,10 +19,10 @@ CREATE TABLE testuser(
 CREATE TABLE livearea(
     id VARCHAR(11) NOT NULL, 
     area_code VARCHAR(30) NOT NULL,
-    area_name VARCHAR(30) NOT NULL ,
-    PRIMARY KEY (id,area_code,area_name));
+    name VARCHAR(30) NOT NULL ,
+    PRIMARY KEY (id,area_code,name));
 
     CREATE TABLE userjob(
     id VARCHAR(3) NOT NULL, 
-    job VARCHAR(30) NOT NULL,
-    PRIMARY KEY (id,job));
+    name VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id,name));

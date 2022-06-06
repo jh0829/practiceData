@@ -14,6 +14,7 @@ CREATE TABLE testuser(
     name VARCHAR(30) NOT NULL ,
     age integer,
     born date,
+    job_id VARCHAR(11) NOT NULL,
     PRIMARY KEY (id,name));
 
 CREATE TABLE livearea(
